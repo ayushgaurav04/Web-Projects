@@ -1,0 +1,50 @@
+@media(max-width:1200px){
+    .videoboxes{
+        flex-direction: column;
+    }
+    #box{
+width: 50vw;
+    }
+    .container2{
+        height: 145vh;
+        /* flex-direction: column; */
+    }
+    .search_bar{
+        display: none;
+    }
+    .container2_boxes{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: inherit;
+        overflow: hidden;
+        gap: 30px;
+    }
+    .container24after{
+        flex-direction: column;
+        height: 85vh;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    #box_media{
+        width: 60vw;
+        height: 25vh;
+    }
+}
+
+
+
+@media(max-width:830px){
+    .headline{
+        flex-wrap: wrap;
+       
+    }
+    #head2{
+        font-size: 8.5vw;
+
+    }
+    .headline p{
+        font-size: 3vw;
+        /* line-height: 20px; */
+    }
+}
